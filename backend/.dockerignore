@@ -1,0 +1,23 @@
+# Node modules (reinstall in container)
+node_modules
+npm-debug.log
+
+# Build artifacts (frontend only)
+build
+dist
+
+# Environment files (optional, if passing through compose)
+.env
+
+# OS and editor files
+.DS_Store
+.vscode
+*.swp
+
+# Logs
+logs
+*.log
+
+# Git
+.git
+.gitignore
